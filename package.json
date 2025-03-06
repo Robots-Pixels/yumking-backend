@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "google-libphonenumber": "^3.2.40",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.11.0",
+    "nodemon": "^3.1.9"
+  },
+  "name": "yumking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robots-Pixels/yumking-fast-food-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Robots-Pixels/yumking-fast-food-app/issues"
+  },
+  "homepage": "https://github.com/Robots-Pixels/yumking-fast-food-app#readme"
+}
