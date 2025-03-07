@@ -24,5 +24,5 @@ mongoose
 
     })
     .catch((error) => {
-        console.log("Erreur de connexion à MongoDB : ", error);
+        console.log("Error while connecting to the DataBase : ", error);
 })

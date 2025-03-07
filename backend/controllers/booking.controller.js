@@ -9,9 +9,6 @@ export const newBooking = async (req, res) => {
     if (message === ""){
         req.body.message = undefined;
     }
-
-    console.log(req.body);
-
     if (!validBookingDate(day, time)){
         return res.status(400).json({
             message: "Booking date or Time is incorrect!",

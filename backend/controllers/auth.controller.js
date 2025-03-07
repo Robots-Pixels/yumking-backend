@@ -48,8 +48,6 @@ export const signup = async (req, res) => {
 export const signin = async (req, res) => {
     const {countryCode, telephone, email, password} = req.body;
 
-    console.log(req.body);
-
     if (!telephone && !countryCode){
         try {
             const userFound = await User.findOne({email:email.replace(/\s+/g, "")});
